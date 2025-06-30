@@ -32,8 +32,8 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // Filtering code
-    const tabButtons = document.querySelectorAll('.tab-btn');
+    // Filtering code - FIXED: Changed .tab-btn to .toggle-btn
+    const tabButtons = document.querySelectorAll('.toggle-btn');
     const extensionCards = document.querySelectorAll('.extension-card');
 
     // Debug: Check if elements are found
