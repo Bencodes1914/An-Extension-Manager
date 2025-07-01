@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Theme switching code (your existing code)
     let lightmode = localStorage.getItem('light-mode');
     const themeSwitch = document.querySelector('.theme-btn');
 
@@ -32,11 +31,9 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // Filtering code - FIXED: Changed .tab-btn to .toggle-btn
     const tabButtons = document.querySelectorAll('.toggle-btn');
     const extensionCards = document.querySelectorAll('.extension-card');
 
-    // Debug: Check if elements are found
     console.log('Tab buttons found:', tabButtons.length);
     console.log('Extension cards found:', extensionCards.length);
 
