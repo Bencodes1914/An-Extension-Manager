@@ -141,8 +141,9 @@ body {
     font-weight: 500;
     cursor: pointer;
     transition: all 0.2s ease;
-    background: var(--text-description);
-    color: var(--filter-btn-hover);
+    background: var(--filter-btn-hover
+);
+    color: var(--text-description);
 }
 
 .toggle-btn:focus{
