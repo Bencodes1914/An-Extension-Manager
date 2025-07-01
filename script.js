@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
         localStorage.setItem('light-mode', 'active');
         const themeIcon = document.querySelector('.theme-icon img');
         if (themeIcon) {
-            themeIcon.src = './Images/icon-moon.svg';
+            themeIcon.src = './images/icon-moon.svg';
         }
     }
 
@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
         localStorage.setItem('light-mode', null);
         const themeIcon = document.querySelector('.theme-icon img');
         if (themeIcon) {
-            themeIcon.src = './Images/icon-sun.svg';
+            themeIcon.src = './images/icon-sun.svg';
         }
     }
 
