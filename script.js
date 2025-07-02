@@ -139,10 +139,10 @@
         function renderExtensions() {
             const container = document.getElementById('extensions-container');
             
-            if (!container) {
-                console.error('Extensions container not found');
-                return;
-            }
+            // if (!container) {
+            //     console.error('Extensions container not found');
+            //     return;
+            // }
             
             container.innerHTML = '';
             
@@ -255,8 +255,8 @@
             
             console.log('Extensions Manager initialized successfully');
             console.log(`Total extensions: ${extensions.length}`);
-            console.log(`Active extensions: ${getActiveExtensions().length}`);
-            console.log(`Inactive extensions: ${getInactiveExtensions().length}`);
+            // console.log(`Active extensions: ${getActiveExtensions().length}`);
+            // console.log(`Inactive extensions: ${getInactiveExtensions().length}`);
         }
 
         if (document.readyState === 'loading') {
@@ -266,8 +266,8 @@
         }
 
         window.ExtensionsManager = {
-            addExtension,
-            getActiveExtensions,
-            getInactiveExtensions,
+            // addExtension,
+            // getActiveExtensions,
+            // getInactiveExtensions,
             renderExtensions
         };
