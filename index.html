@@ -7,16 +7,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
+         <div class="container">
         <header class="header">
             <div class="header-content">
-                        <div class="logo-placeholder">
-                            <img src="./images/logo.svg"/>
-                        </div>
-                <button class="theme-btn">
+                <div class="logo-placeholder">
+                    <img src="./images/logo.svg" alt="Extensions Manager Logo"/>
+                </div>
+                <button class="theme-btn" id="theme-toggle" aria-label="Toggle theme">
                     <div class="theme-icon">
-                        <img src="./images/icon-sun.svg"/>
-                        <img src="./images/icon-moon.svg"/>
+                        <img src="./images/icon-sun.svg" alt="Light mode"/>
+                        <img src="./images/icon-moon.svg" alt="Dark mode"/>
                     </div>
                 </button>
             </div>
@@ -32,9 +32,10 @@
                 </div>
             </div>
 
-            <div id="extensions-container"></div>
+            <div id="extensions-container" class="extensions"></div>
         </main>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
